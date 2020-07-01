@@ -6,7 +6,7 @@ const postcssBanner = require('postcss-banner');
 const postcssAddFallback = require('./postcss-add-fallback.js');
 const postcssCustomProperties = require('postcss-custom-properties'); //ie11 fallbacks
 const postcssImport = require('postcss-import');
-const postcssRemoveFonts = require('./postcss-remove-fonts.js');
+const postcssCleanup = require('./postcss-cleanup.js');
 const packageVersion = require('../package.json').version;
 const year = new Date().getFullYear();
 
@@ -25,7 +25,7 @@ module.exports = {
     sourcesContent: true,
     plugins: [
         postcssImport(),
-        postcssAddFallback({ importFrom: 'dist/root.css' }),
+        // postcssAddFallback({ importFrom: 'dist/root.css' }),
         postcssAddFallback({ importFrom: 'node_modules/@sap-theming/theming-base-content/content/Base/baseLib/sap_fiori_3/css_variables.css' }),
         autoprefixer({
             cascade: true
@@ -37,7 +37,7 @@ module.exports = {
         postcssCustomProperties({
             preserve: true
         }),
-        postcssRemoveFonts(), // remove fonts from @sap-theming/theming-base-content
+        postcssCleanup(), // remove fonts from @sap-theming/theming-base-content
         minify,
         postcssBanner({
             banner: `Fundamental Library Styles v${packageVersion}
