@@ -1,0 +1,299 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/ObjectMarker Clickable Object Marker 1`] = `
+<section>
+  
+
+  <span
+    class="fd-object-marker fd-object-marker--link sap-icon--private"
+  >
+    Locked
+  </span>
+  
+
+  <span
+    class="fd-object-marker fd-object-marker--link sap-icon--user-edit"
+  >
+    Unsaved Changes
+  </span>
+  
+
+
+  <div
+    dir="rtl"
+  >
+    
+
+    <h4>
+      RTL Support
+    </h4>
+    
+
+    <span
+      class="fd-object-marker fd-object-marker--link sap-icon--private"
+    >
+      Locked
+    </span>
+    
+
+    <span
+      class="fd-object-marker fd-object-marker--link sap-icon--user-edit"
+    >
+      Unsaved Changes
+    </span>
+    
+
+  </div>
+  
+
+</section>
+`;
+
+exports[`Storyshots Components/ObjectMarker Icon And Text 1`] = `
+<section>
+  
+
+  <span
+    class="fd-object-marker sap-icon--request"
+  >
+    Request
+  </span>
+  
+
+  <span
+    class="fd-object-marker sap-icon--favorite"
+  >
+    Favourite
+  </span>
+  
+
+  <span
+    class="fd-object-marker sap-icon--flag"
+  >
+    Flag
+  </span>
+  
+
+  <span
+    class="fd-object-marker sap-icon--user-edit"
+  >
+    Draft
+  </span>
+  
+
+  <span
+    class="fd-object-marker sap-icon--private"
+  >
+    Locked
+  </span>
+  
+
+
+  <div
+    dir="rtl"
+  >
+    
+
+    <h4>
+      RTL Support
+    </h4>
+    
+
+    <span
+      class="fd-object-marker sap-icon--request"
+    >
+      Request
+    </span>
+    
+
+    <span
+      class="fd-object-marker sap-icon--favorite"
+    >
+      Favourite
+    </span>
+    
+
+    <span
+      class="fd-object-marker sap-icon--flag"
+    >
+      Flag
+    </span>
+    
+
+    <span
+      class="fd-object-marker sap-icon--user-edit"
+    >
+      Draft
+    </span>
+    
+
+    <span
+      class="fd-object-marker sap-icon--private"
+    >
+      Locked
+    </span>
+    
+
+  </div>
+  
+
+</section>
+`;
+
+exports[`Storyshots Components/ObjectMarker Icon Only 1`] = `
+<section>
+  
+
+  <span
+    aria-label="icon for request"
+    class="fd-object-marker sap-icon--request"
+  />
+  
+
+  <span
+    aria-label="icon for favourite"
+    class="fd-object-marker sap-icon--favorite"
+  />
+  
+
+  <span
+    aria-label="icon for flag"
+    class="fd-object-marker sap-icon--flag"
+  />
+  
+
+  <span
+    aria-label="icon for user edit"
+    class="fd-object-marker sap-icon--user-edit"
+  />
+  
+
+  <span
+    aria-label="icon for private"
+    class="fd-object-marker sap-icon--private"
+  />
+  
+
+</section>
+`;
+
+exports[`Storyshots Components/ObjectMarker Marker Text 1`] = `
+<section>
+  
+
+  <span
+    class="fd-object-marker"
+  >
+    Draft
+  </span>
+  
+
+  <span
+    class="fd-object-marker"
+  >
+    Locked
+  </span>
+  
+
+</section>
+`;
+
+exports[`Storyshots Components/ObjectMarker Object Marker With Two Icon 1`] = `
+<section>
+  
+
+  <div>
+    
+
+    <span
+      aria-label="icon to mark favourite"
+      class="fd-object-marker sap-icon--favorite"
+    />
+    
+
+    <span
+      class="fd-object-marker sap-icon--private"
+    >
+      Locked
+    </span>
+    
+
+  </div>
+  
+
+  <br />
+  
+
+  <div>
+    
+
+    <span
+      aria-label="icon to mark favourite"
+      class="fd-object-marker sap-icon--favorite"
+    />
+    
+
+    <span
+      aria-label="icon to mark private"
+      class="fd-object-marker sap-icon--private"
+    />
+    
+
+  </div>
+  
+
+  <div
+    dir="rtl"
+  >
+    
+
+    <h4>
+      RTL Support
+    </h4>
+    
+
+    <div>
+      
+
+      <span
+        aria-label="icon for favourite"
+        class="fd-object-marker sap-icon--favorite"
+      />
+      
+
+      <span
+        class="fd-object-marker sap-icon--private"
+      >
+        Locked
+      </span>
+      
+
+    </div>
+    
+
+    <br />
+    
+
+    <div>
+      
+
+      <span
+        aria-label="icon to mark favourite"
+        class="fd-object-marker sap-icon--favorite"
+      />
+      
+
+      <span
+        aria-label="icon to mark private"
+        class="fd-object-marker sap-icon--private"
+      />
+      
+
+    </div>
+    
+
+  </div>
+  
+
+</section>
+`;
