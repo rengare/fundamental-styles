@@ -8,17 +8,16 @@ $block: #{$fd-namespace}-object-marker;
 
 .#{$block} {
   // ICON VARIABLES
-  $fd-object-marker-font-size: 1rem !default;
+  $fd-object-marker-icon-size: 1rem !default;
   $fd-object-marker-color: var(--sapContent_MarkerIconColor) !default;
   $fd-object-marker-text-color: var(--sapContent_LabelColor) !default;
   $fd-object-marker-padding-left: 0.5rem !default;
   $fd-object-marker-padding-right: 0.25rem !default;
   // TEXT VARIABLES
-  $fd-object-marker-font-family: var(--sapFontFamily) !default;
+  $fd-object-marker-font-size: var(--sapFontSize) !default;
 
   @include fd-reset();
 
-  font-family: $fd-object-marker-font-family;
   font-size: $fd-object-marker-font-size;
   max-width: 100%;
   color: $fd-object-marker-text-color;
@@ -28,6 +27,7 @@ $block: #{$fd-namespace}-object-marker;
   line-height: 1;
 
   &::before {
+    font-size: $fd-object-marker-icon-size;
     color: $fd-object-marker-color;
     padding: 0 $fd-object-marker-padding-right 0 0;
   }
