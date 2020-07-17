@@ -4,18 +4,31 @@ exports[`Storyshots Components/ObjectMarker Clickable Object Marker 1`] = `
 <section>
   
 
-  <span
-    class="fd-object-marker fd-object-marker--link sap-icon--private"
+  <a
+    class="fd-object-marker--link"
   >
-    Locked
-  </span>
+    
+
+    <span
+      class="fd-object-marker sap-icon--private"
+    />
+    
+Locked
+  </a>
   
 
-  <span
-    class="fd-object-marker fd-object-marker--link sap-icon--user-edit"
+  <a
+    class="fd-object-marker--link"
   >
+     
+    <span
+      class="fd-object-marker sap-icon--user-edit"
+    >
+      
+
+    </span>
     Unsaved Changes
-  </span>
+  </a>
   
 
 
@@ -29,18 +42,31 @@ exports[`Storyshots Components/ObjectMarker Clickable Object Marker 1`] = `
     </h4>
     
 
-    <span
-      class="fd-object-marker fd-object-marker--link sap-icon--private"
+    <a
+      class="fd-object-marker--link"
     >
-      Locked
-    </span>
+      
+	
+      <span
+        class="fd-object-marker sap-icon--private"
+      />
+      
+Locked
+    </a>
     
 
-    <span
-      class="fd-object-marker fd-object-marker--link sap-icon--user-edit"
+    <a
+      class="fd-object-marker--link"
     >
+       
+      <span
+        class="fd-object-marker sap-icon--user-edit"
+      >
+        
+
+      </span>
       Unsaved Changes
-    </span>
+    </a>
     
 
   </div>
@@ -193,106 +219,6 @@ exports[`Storyshots Components/ObjectMarker Marker Text 1`] = `
   >
     Locked
   </span>
-  
-
-</section>
-`;
-
-exports[`Storyshots Components/ObjectMarker Object Marker With Two Icon 1`] = `
-<section>
-  
-
-  <div>
-    
-
-    <span
-      aria-label="icon to mark favourite"
-      class="fd-object-marker sap-icon--favorite"
-    />
-    
-
-    <span
-      class="fd-object-marker sap-icon--private"
-    >
-      Locked
-    </span>
-    
-
-  </div>
-  
-
-  <br />
-  
-
-  <div>
-    
-
-    <span
-      aria-label="icon to mark favourite"
-      class="fd-object-marker sap-icon--favorite"
-    />
-    
-
-    <span
-      aria-label="icon to mark private"
-      class="fd-object-marker sap-icon--private"
-    />
-    
-
-  </div>
-  
-
-  <div
-    dir="rtl"
-  >
-    
-
-    <h4>
-      RTL Support
-    </h4>
-    
-
-    <div>
-      
-
-      <span
-        aria-label="icon for favourite"
-        class="fd-object-marker sap-icon--favorite"
-      />
-      
-
-      <span
-        class="fd-object-marker sap-icon--private"
-      >
-        Locked
-      </span>
-      
-
-    </div>
-    
-
-    <br />
-    
-
-    <div>
-      
-
-      <span
-        aria-label="icon to mark favourite"
-        class="fd-object-marker sap-icon--favorite"
-      />
-      
-
-      <span
-        aria-label="icon to mark private"
-        class="fd-object-marker sap-icon--private"
-      />
-      
-
-    </div>
-    
-
-  </div>
   
 
 </section>

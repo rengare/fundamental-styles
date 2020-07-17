@@ -64,46 +64,23 @@ iconAndText.parameters = {
  */
 
 export const clickableObjectMarker = () => `
-<span class="fd-object-marker fd-object-marker--link sap-icon--private">Locked</span>
-<span class="fd-object-marker fd-object-marker--link sap-icon--user-edit">Unsaved Changes</span>
+<a class="fd-object-marker--link">
+<span class="fd-object-marker sap-icon--private"></span>
+Locked</a>
+<a class="fd-object-marker--link"> <span class="fd-object-marker sap-icon--user-edit">
+</span>Unsaved Changes</a>
 
 <div dir="rtl">
 <h4>RTL Support</h4>
-<span class="fd-object-marker fd-object-marker--link sap-icon--private">Locked</span>
-<span class="fd-object-marker fd-object-marker--link sap-icon--user-edit">Unsaved Changes</span>
+<a class="fd-object-marker--link">
+	<span class="fd-object-marker sap-icon--private"></span>
+Locked</a>
+<a class="fd-object-marker--link"> <span class="fd-object-marker sap-icon--user-edit">
+</span>Unsaved Changes</a>
 </div>
 `;
 clickableObjectMarker.parameters = {
     docs: {
         iframeHeight: 150
-    }
-};
-
-export const ObjectMarkerWithTwoIcon = () => `
-<div>
-<span class="fd-object-marker sap-icon--favorite" aria-label="icon to mark favourite"></span>
-<span class="fd-object-marker sap-icon--private">Locked</span>
-</div>
-<br>
-<div>
-<span class="fd-object-marker sap-icon--favorite" aria-label="icon to mark favourite"></span>
-<span class="fd-object-marker sap-icon--private" aria-label="icon to mark private"></span>
-</div>
-<div dir="rtl">
-<h4>RTL Support</h4>
-<div>
-<span class="fd-object-marker sap-icon--favorite" aria-label="icon for favourite"></span>
-<span class="fd-object-marker sap-icon--private">Locked</span>
-</div>
-<br>
-<div>
-<span class="fd-object-marker sap-icon--favorite" aria-label="icon to mark favourite"></span>
-<span class="fd-object-marker sap-icon--private" aria-label="icon to mark private"></span>
-</div>
-</div>
-`;
-ObjectMarkerWithTwoIcon.parameters = {
-    docs: {
-        iframeHeight: 200
     }
 };

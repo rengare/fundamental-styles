@@ -13,16 +13,12 @@ $block: #{$fd-namespace}-object-marker;
   $fd-object-marker-text-color: var(--sapContent_LabelColor) !default;
   $fd-object-marker-padding-left: 0.5rem !default;
   $fd-object-marker-padding-right: 0.25rem !default;
-  // TEXT VARIABLES
-  $fd-object-marker-font-size: var(--sapFontSize) !default;
 
   @include fd-reset();
 
-  font-size: $fd-object-marker-font-size;
   max-width: 100%;
   color: $fd-object-marker-text-color;
   word-break: break-word;
-  display: inline-flex;
   align-items: center;
   line-height: 1;
 
@@ -34,12 +30,14 @@ $block: #{$fd-namespace}-object-marker;
 
   // CLICKABLE OBJECT STATUS
   &--link {
+    display: inline-block;
     text-decoration: none;
     color: $fd-object-marker-color;
     cursor: pointer;
 
     &::before {
       position: relative;
+      display: inline-flex;
     }
 
     &:hover {
@@ -71,6 +69,7 @@ $block: #{$fd-namespace}-object-marker;
     &::before {
       padding-left: $fd-object-marker-padding-right;
       padding-right: 0;
+      display: inline-flex;
     }
 
     @include fd-empty() {
