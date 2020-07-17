@@ -8,7 +8,6 @@ $block: #{$fd-namespace}-object-marker;
 
 .#{$block} {
   // ICON VARIABLES
-  $fd-object-marker-icon-size: 1rem !default;
   $fd-object-marker-color: var(--sapContent_MarkerIconColor) !default;
   $fd-object-marker-text-color: var(--sapContent_LabelColor) !default;
   $fd-object-marker-padding-left: 0.5rem !default;
@@ -23,7 +22,7 @@ $block: #{$fd-namespace}-object-marker;
   line-height: 1;
 
   &::before {
-    font-size: $fd-object-marker-icon-size;
+    font-size: 1rem;
     color: $fd-object-marker-color;
     padding: 0 $fd-object-marker-padding-right 0 0;
   }
