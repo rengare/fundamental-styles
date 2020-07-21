@@ -7,5 +7,5 @@ npx standard-version --prerelease rc --no-verify
 
 git status
 
-cat package.json
+cat package.json | grep version
 #build dist and component folders
