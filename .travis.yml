@@ -4,7 +4,7 @@ dist: bionic
 git:
   depth: false
 script:
-  - l
+  - ls
 jobs:
   include:
   - stage: Lint, Test and Size
