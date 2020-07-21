@@ -4,7 +4,7 @@ dist: bionic
 git:
   depth: false
 script:
-  - npm run build:prod
+  - l
 jobs:
   include:
   - stage: Lint, Test and Size
@@ -14,7 +14,6 @@ jobs:
     if: branch = master
     before_deploy:
     - git checkout master
-    - bash ./ci-scripts/setup-npm.sh
     deploy:
     - provider: script
       script: bash ./ci-scripts/publish-rc.sh
