@@ -3,8 +3,8 @@
 set -e
 cat package.json
 git status
-
-npm run std-version -- --prerelease rc --no-verify --debug
+npx standard-version --release-as prerelease rc --no-verify
+#npm run std-version -- --prerelease rc --no-verify --debug
 
 git status
 
