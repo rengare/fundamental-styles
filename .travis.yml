@@ -18,10 +18,9 @@ jobs:
     before_deploy:
     - git checkout master
     - bash ./ci-scripts/setup-npm.sh
-    - bash ./ci-scripts/publish-rc.sh
     deploy:
     - provider: script
-      # script: bash ./ci-scripts/publish-rc.sh
+      script: bash ./ci-scripts/publish-rc.sh
       skip_cleanup: true
   - stage: Release
     if: branch = tmp_branch_for_automated_release_do_not_use
