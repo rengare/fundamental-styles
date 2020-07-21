@@ -8,11 +8,7 @@ jobs:
   include:
   - stage: Lint, Test and Size
     script:
-      - npm run test
-  -
-    script: npm run lint
-  -
-    script: npm run build:prod && npm run size
+      - ls
   - stage: Pre-release
     if: branch = master
     before_deploy:
