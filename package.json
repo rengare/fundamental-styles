@@ -1,10 +1,9 @@
 {
   "name": "fundamental-styles",
-  "version": "0.11.6-rc.0",
+  "version": "0.11.6-rc.1",
   "description": "Fundamental Library Styles is a Design System and HTML/CSS Component Library used to build modern Product User Experiences with Fiori 3 look and feel. Learn more about this project at - http://sap.github.io/fundamental-styles/",
   "main": "dist/fundamental-styles.css",
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/SAP/fundamental-styles.git"
@@ -16,12 +15,11 @@
   "license": "Apache-2.0",
   "homepage": "https://sap.github.io/fundamental-styles/",
   "devDependencies": {
-   "standard-version": "8.0.2"
- },
+    "standard-version": "8.0.2"
+  },
   "directories": {
     "storybook-testing": "storybook-testing"
   },
-  "browserslist": [
-  ],
+  "browserslist": [],
   "dependencies": {}
 }
