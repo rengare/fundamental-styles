@@ -6,7 +6,6 @@ let version = process.argv[2];
 
 if (version) {
     version = version.replace('v', '');
-    
     let packageContent = JSON.parse(fs.readFileSync(`${dots}/package.json`, 'utf8'));
     packageContent.version = version;
 
