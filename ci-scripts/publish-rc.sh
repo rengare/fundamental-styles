@@ -1,13 +1,7 @@
 #! /bin/bash
-git status
 
 npx standard-version --prerelease rc --no-verify
 
-npx node ci-scripts/bump_package.js
-
-git status
+# npx node ci-scripts/bump_package.js
 
 cat package.json | grep version
-
-git push --follow-tags origin master
-
