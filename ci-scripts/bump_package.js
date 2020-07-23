@@ -5,7 +5,7 @@ let dots =  fs.existsSync('./package.json')? '.' : '..';
 let packageContent = JSON.parse(fs.readFileSync(`${dots}/package.json`, 'utf8'));
 let versionContent = JSON.parse(fs.readFileSync(`${dots}/version.json`, 'utf8'));
 
-packageContent.version = versionContent.version;
+packageContent.version = 1
 
 if(fs.existsSync(`${dots}/package-lock.json`)){
     let lockContent = JSON.parse(fs.readFileSync(`${dots}/package-lock.json`, 'utf8'));
