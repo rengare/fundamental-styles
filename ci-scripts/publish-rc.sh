@@ -12,5 +12,5 @@ echo "$release_tag"
 # npx node ci-scripts/bump_package.js $release_tag
 
 cat package.json | grep version
-
+cat .gitignore 
 git status
