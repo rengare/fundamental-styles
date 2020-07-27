@@ -1,58 +1,16 @@
-# Changelog
+# Change Log
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-### [0.11.10-rc.7](https://github.com/SAP/fundamental-styles/compare/v0.11.10-rc.6...v0.11.10-rc.7) (2020-07-23)
+<a name="0.11.10-rc.12"></a>
+## [0.11.10-rc.12](https://github.com/SAP/fundamental-styles/compare/v0.11.6-rc.8...v0.11.10-rc.12) (2020-07-27)
 
-### [0.11.10-rc.6](https://github.com/SAP/fundamental-styles/compare/v0.11.10-rc.5...v0.11.10-rc.6) (2020-07-23)
 
-### [0.11.10-rc.5](https://github.com/SAP/fundamental-styles/compare/v0.11.10-rc.4...v0.11.10-rc.5) (2020-07-23)
 
-### [0.11.10-rc.4](https://github.com/SAP/fundamental-styles/compare/v0.11.10-rc.3...v0.11.10-rc.4) (2020-07-23)
+<a name="0.11.10-rc.11"></a>
+## [0.11.10-rc.11](https://github.com/SAP/fundamental-styles/compare/v0.11.6-rc.8...v0.11.10-rc.11) (2020-07-27)
 
-### [0.11.10-rc.3](https://github.com/SAP/fundamental-styles/compare/v0.11.10-rc.2...v0.11.10-rc.3) (2020-07-23)
 
-### [0.11.10-rc.2](https://github.com/SAP/fundamental-styles/compare/v0.11.6-rc.8...v0.11.10-rc.2) (2020-07-23)
-
-### [0.11.6-rc.1](https://github.com/SAP/fundamental-styles/compare/v0.11.6-rc.8...v0.11.6-rc.1) (2020-07-23)
-
-### [0.11.3-rc.0](https://github.com/SAP/fundamental-styles/compare/v0.11.6-rc.8...v0.11.3-rc.0) (2020-07-23)
-
-### [0.11.2](https://github.com/SAP/fundamental-styles/compare/v0.11.6-rc.8...v0.11.2) (2020-07-23)
-
-### [0.11.6-rc.8](https://github.com/SAP/fundamental-styles/compare/v0.11.6-rc.7...v0.11.6-rc.8) (2020-07-23)
-
-### [0.11.6-rc.7](https://github.com/SAP/fundamental-styles/compare/v0.11.6-rc.6...v0.11.6-rc.7) (2020-07-21)
-
-### [0.11.6-rc.6](https://github.com/SAP/fundamental-styles/compare/v0.11.6-rc.5...v0.11.6-rc.6) (2020-07-21)
-
-### [0.11.6-rc.5](https://github.com/SAP/fundamental-styles/compare/v0.11.6-rc.4...v0.11.6-rc.5) (2020-07-21)
-
-### [0.11.6-rc.4](https://github.com/SAP/fundamental-styles/compare/v0.11.6-rc.3...v0.11.6-rc.4) (2020-07-21)
-
-### [0.11.6-rc.3](https://github.com/SAP/fundamental-styles/compare/v0.11.6-rc.2...v0.11.6-rc.3) (2020-07-21)
-
-### [0.11.6-rc.2](https://github.com/SAP/fundamental-styles/compare/v0.11.6-rc.1...v0.11.6-rc.2) (2020-07-21)
-
-### [0.11.6-rc.1](https://github.com/SAP/fundamental-styles/compare/v0.11.6-rc.0...v0.11.6-rc.1) (2020-07-21)
-
-### [0.11.6-rc.0](https://github.com/SAP/fundamental-styles/compare/v0.11.5...v0.11.6-rc.0) (2020-07-21)
-
-### [0.11.5](https://github.com/SAP/fundamental-styles/compare/v0.11.5-rc.1...v0.11.5) (2020-07-21)
-
-### [0.11.5-rc.1](https://github.com/SAP/fundamental-styles/compare/v0.11.5-rc.0...v0.11.5-rc.1) (2020-07-21)
-
-### [0.11.5-rc.0](https://github.com/SAP/fundamental-styles/compare/v0.11.3-rc.4...v0.11.5-rc.0) (2020-07-21)
-
-### [0.11.3-rc.4](https://github.com/SAP/fundamental-styles/compare/v0.11.3-rc.1...v0.11.3-rc.4) (2020-07-21)
-
-### [0.11.3-rc.3](https://github.com/SAP/fundamental-styles/compare/v0.11.3-rc.1...v0.11.3-rc.3) (2020-07-21)
-
-### [0.11.3-rc.2](https://github.com/SAP/fundamental-styles/compare/v0.11.3-rc.1...v0.11.3-rc.2) (2020-07-21)
-
-### [0.11.3-rc.1](https://github.com/SAP/fundamental-styles/compare/v0.11.3-rc.0...v0.11.3-rc.1) (2020-07-21)
-
-### [0.11.3-rc.0](https://github.com/SAP/fundamental-styles/compare/v0.11.2...v0.11.3-rc.0) (2020-07-21)
 
 <a name="0.11.2"></a>
 ## [0.11.2](https://github.com/SAP/fundamental-styles/compare/v0.11.2-rc.0...v0.11.2) (2020-07-17)
