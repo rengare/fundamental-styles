@@ -8,8 +8,8 @@
 .vscode
 build
 .tmp
-*.log
-*.tgz
+# *.log
+# *.tgz
 # __diff_output__
 storybook-static
 .storybook/static/*.woff
