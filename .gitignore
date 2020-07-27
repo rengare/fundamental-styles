@@ -7,7 +7,7 @@
 # .idea
 .vscode
 build
-.tmp
+# .tmp
 # *.log
 # *.tgz
 # __diff_output__
