@@ -5,8 +5,8 @@
 # ehthumbs.db
 # Thumbs.db
 # .idea
-.vscode
-build
+# .vscode
+# build
 # .tmp
 # *.log
 # *.tgz
