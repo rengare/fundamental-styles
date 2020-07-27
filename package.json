@@ -98,13 +98,6 @@
   "directories": {
     "storybook-testing": "storybook-testing"
   },
-  "pre-commit": {
-    "colors": true,
-    "run": [
-      "lint:pre-commit"
-    ],
-    "silent": false
-  },
   "browserslist": [
     "last 2 versions",
     "IE 11"
