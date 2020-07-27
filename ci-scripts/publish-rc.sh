@@ -2,8 +2,6 @@
 
 set -e
 
-
-
 # std_ver=$(npx standard-version --prerelease rc --no-verify -m \"chore(release): version %s build ${TRAVIS_BUILD_NUMBER} [ci skip]\" )
 std_ver=$(npx standard-version --prerelease rc --no-verify -m "chore(release): version %s build ${TRAVIS_BUILD_NUMBER} [ci skip]" )
 release_tag=$(echo "$std_ver" | grep "tagging release" | awk '{print $4}')
