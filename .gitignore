@@ -1,28 +1,27 @@
-.DS_Store
-.DS_Store?
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-.idea
-.vscode
-/dist
-node_modules
-build
-.tmp
-*.log
-*.tgz
-__diff_output__
+# .DS_Store
+# .DS_Store?
+# .Spotlight-V100
+# .Trashes
+# ehthumbs.db
+# Thumbs.db
+# .idea
+# .vscode
+# build
+# .tmp
+# *.log
+# *.tgz
+# __diff_output__
 storybook-static
-.storybook/static/*.woff
-.storybook/static/72-Bold.woff
-.storybook/static/72-Light.woff
-.storybook/static/72-Regular.woff
-.storybook/static/SAP-icons.woff
-.storybook/static/HCB_css_variables.css
-.storybook/static/HCW_css_variables.css
-.storybook/static/css_variables.css
-.storybook/static/dark_css_variables.css
-.storybook/static/light_dark_css_variables.css
+# .storybook/static/*.woff
+# .storybook/static/72-Bold.woff
+# .storybook/static/72-Light.woff
+# .storybook/static/72-Regular.woff
+# .storybook/static/SAP-icons.woff
+# .storybook/static/HCB_css_variables.css
+# .storybook/static/HCW_css_variables.css
+# .storybook/static/css_variables.css
+# .storybook/static/dark_css_variables.css
+# .storybook/static/light_dark_css_variables.css
 stories/docs/
-storybook-static
+dist
+node_modules
