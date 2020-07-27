@@ -5,12 +5,12 @@
 # ehthumbs.db
 # Thumbs.db
 # .idea
-# .vscode
+.vscode
 # build
-# .tmp
-# *.log
-# *.tgz
-# __diff_output__
+.tmp
+*.log
+*.tgz
+__diff_output__
 storybook-static
 .storybook/static/*.woff
 .storybook/static/72-Bold.woff
